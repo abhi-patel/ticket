@@ -1,6 +1,6 @@
 Ticket::Application.routes.draw do
 	
-  resources :admins,:controller => 'users'
+  resources :admins,:controller =>'users'
   resources :users
   resources :user_sessions
   
