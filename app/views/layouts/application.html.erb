@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>T-auto</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag 'jquery','application' %>
+  <%= csrf_meta_tag %>
+  <script type="text/javascript">
+  	//jQuery.noConflict()  	
+  </script>
+  <!-- <script src="http://localhost:8080/application.js" type="text/javascript" charset="utf-8"></script> -->
+
+  <%#= javascript_include_tag 'json', 'juggernaut/juggernaut', 'juggernaut/jquerynaut', 'juggernaut/swfobject'  %>
+  <%#= juggernaut %>
+</head>
+<body>
+<div id="notice"><%= notice %></div>
+<%= yield %>
+
+</body>
+</html>
